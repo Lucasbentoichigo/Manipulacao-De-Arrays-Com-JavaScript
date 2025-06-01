@@ -14,4 +14,4 @@ let gradeCurricular = [
 
 gradeCurricular[2] = "Programação";
 gradeCurricular[3] = "Robótica";
-console.log(`Nova grade curricular: ${gradeCurricular}`);
+console.log(`Nova grade curricular atualizada: ${gradeCurricular}`);
