@@ -13,6 +13,6 @@ let estoque = [
 
 let estoqueFiltrado = estoque.filter(item => item.quantidade > 10);
 
-console.log(`Estoque filtrado (Produtos com mais de 10 unidades disponíveis): ${estoqueFiltrado}`);
+console.log("Estoque filtrado (Produtos com mais de 10 unidades disponíveis):");
 estoqueFiltrado.forEach(produto => {console.log(`${produto.produto}: ${produto.quantidade} unidades`);
 });
